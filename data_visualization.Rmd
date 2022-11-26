@@ -1,0 +1,256 @@
+---
+title: "Data Visualization"
+author: "lixionghui"
+date: "2017/12/6"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 可视化
+*Visualization*
+
+### Onlinebooks
+
+* [Data Visualization: A practical introduction, Kieran Healy, 2020](https://socviz.co/) - 数据可视化最佳实践
+
+* [Fundamentals of Data Visualization, Claus O. Wilke](https://clauswilke.com/dataviz/) - 数据可视化基础
+* [数据可视化基础, 克劳斯 O.威尔克](https://book.douban.com/subject/35224057/) - 2020年出版的 Fundamentals of Data Visualization 中文翻译版
+
+* [ggplot2: Elegant Graphics for Data Analysis, 3rd edition](https://ggplot2-book.org/) - ggplot2 的作者 Hadley Wickham 总体阐释了理念、原理、用法等。
+* [ggplot2：数据分析与图形艺术，第二版](https://book.douban.com/subject/30383562/) -  Hadley Wickham 授权出版的中文图书，无在线版，建议购买纸质版月度 。该书是 2013年首次出版，目前中文版出在2019年出版第二版。
+
+
+* [R Graphics Cookbook, 2nd edition](https://r-graphics.org/) - 作者 Winston Chang 是 RStudio 的软件工程师（与原作者 Hadley Wickham 是同事），致力于R中的数据可视化和软件开发工具的研发。
+* [R数据可视化手册，第二版](https://book.douban.com/subject/35463662/) - Winston Chang 原书 [R Graphics Cookbook 对应的中文出版图书，2014年首版，2021年第二版。
+
+
+* [Circular Visualization in R, Zuguang Gu, 2017](http://zuguang.de/circlize_book/book/) - 圆形、环形数据可视化指南
+* [Interactive Data Visualization (2nd Day), Paul C. Bauer & Richard Traunmüller, 2016](https://bookdown.org/paulcbauer/idv2/) - 可交互数据可视化，主要使用了 Plotly 和 Shiny
+* (https://github.com/TriangleR/PlottingSystemsInR)
+* [R Graphics Cookbook, 2nd edition, Winston Chang, 2020](https://r-graphics.org/) - 包含 base plot 和 ggplot2 ，将其作为 ggplot2 的案例素材库是最合适的
+
+* [Statistical rethinking with brms, ggplot2, and the tidyverse: Second edition, A Solomon Kurz, 2020](https://bookdown.org/content/4857/)
+
+
+* [Visual Vocabulary: Designing with data](https://ft-interactive.github.io/visual-vocabulary/) - 金融时报制作的对数据可视化的交互演示网页
+
+### 资源
+
+* [The R Graph Gallery](https://r-graph-gallery.com/) - Help and inspiration for R charts
+
+### ggplot2
+
+ggplot2 官方文档 及 Hadley Wickham 原作者提供的参考资料
+
+* [ggplot2](http://ggplot2.tidyverse.org/) - 原作者 Hadley Wickham 为 ggplot2 建立的网页，作为 tidyverse 项目的一部分。其中 Reference 部分将函数做了分组归类，并提供了参数使用说明和大量案例。这是最重要的现在参考资料，有疑问时都可以到这里来查询。
+
+* [Rstudio Cheatsheets::Data Visualization with ggplot2](https://www.rstudio.com/resources/cheatsheets/) - 一个两页的pdf速查文档，蕴含了ggplot2的基础构成和语法。
+
+
+
+ggplot2 在线教学文档
+
+* [jennybc/ggplot2-tutorial](https://github.com/jennybc/ggplot2-tutorial) - Teaching materials for the R package ggplot2 
+* [An Introduction to Statistical and Data Sciences via R::Data Visualization via ggplot2](http://moderndive.com/3-viz.html) - Chester Ismay and Albert Y. Kim. August 02, 2017 数据可视化章节
+* [echen/ggplot2-tutorial](https://github.com/echen/ggplot2-tutorial) - Quick introduction to ggplot2 (no knowledge of R assumed)
+
+ggplot2 相关的演示 workshop 
+
+* [pablobarbera/Rdataviz::Data Visualization with R and ggplot2](https://github.com/pablobarbera/Rdataviz) - Materials for workshop "Data Visualization with R and ggplot2"
+* [Myfanwy/ggplot2Intro](https://github.com/Myfanwy/ggplot2Intro) - Materials accompanying the presentation ("Introduction to ggplot2") at the Davis R-Users Group Meeting on March 13, 2015.
+
+
+#### ggplot2 extensions
+
+##### Geoms 新几何图形
+
+* [slowkow/ggrepel](https://github.com/slowkow/ggrepel) - 处理标签遮盖问题
+* [hrbrmstr/ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms, Statistical Transformations, Scales & Fonts for 'ggplot2'
+ 
+  - plotly integration for a few of the ^^ geoms
+* [clauswilke/ggridges](https://github.com/clauswilke/ggridges) - ridgeline 山脊线
+
+
+##### ggplot2 themes 主题扩展包
+
+
+
+
+
+* [jrnold/ggthemes](https://github.com/jrnold/ggthemes) - ggplot themes and scales.
+* [hrbrmstr/hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Opinionated, typographic-centric ggplot2 themes and theme components.
+* [ricardo-bion/ggtech](https://github.com/ricardo-bion/ggtech) - ggplot2 tech themes, scales, and geoms. 科技公司风格的主题，包括 Airbnb, Google, Facebook, twitter, Etsy.
+* [cttobin/ggthemr](https://github.com/cttobin/ggthemr) - Themes for ggplot2.
+
+##### ggplot2 extensions
+
+* [ggplot2-exts] (http://www.ggplot2-exts.org/) - 由社区维护的 ggplot2 扩展包网站，提供了目前扩展包列表和作品展示区。
+
+
+* [davidgohel/ggiraph](https://github.com/davidgohel/ggiraph) - htmlwidget to make 'ggplot' graphics interactive.
+* [hrbrmstr/ggalt](https://github.com/hrbrmstr/ggalt) - Extra Coordinate Systems, Geoms, Statistical Transformations, Scales & Fonts for 'ggplot2'
+* [dgrtwo/gganimate](https://github.com/dgrtwo/gganimate) - Create easy animations with ggplot2.
+* [sinhrks/ggfortify](https://github.com/sinhrks/ggfortify) - Define fortify and autoplot functions to allow ggplot2 to handle some popular R packages.
+* [slowkow/ggrepel](https://github.com/slowkow/ggrepel) - Repel overlapping text labels away from each other.
+* [GuangchuangYu/ggtree](https://github.com/GuangchuangYu/ggtree) - Visualization and annotation of phylogenetic tree.
+* [lionel-/ggstance](https://github.com/lionel-/ggstance) - Horizontal ggplot2 components
+* [thomasp85/ggforce](https://github.com/thomasp85/ggforce) - ggforce is a package aimed at providing missing functionality to ggplot2 through the extension system introduced with ggplot2. 
+* [thomasp85/ggraph](https://github.com/thomasp85/ggraph) - A grammar of graphics for relational data
+* [aphalo/ggpmisc](https://cran.rstudio.com/web/packages/ggpmisc/) - Miscellaneous Extensions to ‘ggplot2’.
+* [aphalo/ggspectra](https://cran.rstudio.com/web/packages/ggspectra/) - Extensions to 'ggplot2' for Radiation Spectra.
+* [sctyner/geomnet](https://github.com/sctyner/geomnet) - Examples and data for geom_net.
+* [briatte/ggnetwork](https://github.com/briatte/ggnetwork) - Geoms to plot networks with ggplot2.
+* [daattali/ggExtra](https://github.com/daattali/ggExtra) - Add marginal histograms to ggplot2, and more ggplot2 enhancements.
+* [sachsmc/plotROC](https://github.com/sachsmc/plotROC) - Interactive ROC plots with ggplot + d3.js.
+* [ricardo-bion/ggradar](https://github.com/ricardo-bion/ggradar) - 雷达图 radar charts with ggplot2.
+* [Ather-Energy/ggTimeSeries](https://github.com/Ather-Energy/ggTimeSeries) - Time series visualisation.
+* [ellisp/ggseas](https://github.com/ellisp/ggseas) - seasonal adjustment on the fly extension for ggplot2.
+* [kassambara/ggpubr](https://github.com/kassambara/ggpubr) - ‘ggplot2’ Based Publication Ready Plots 发布前优化，包含图形组合（布局）
+* [const-ae/ggsignif](https://github.com/const-ae/ggsignif) - `geom_signif` Easily add significance brackets to your ggplots
+* [IndrajeetPatil/ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot) - 增强的统计图形
+
+##### Layout 布局
+
+* [EmilHvitfeldt/ggpage](https://github.com/EmilHvitfeldt/ggpage) - Creates Page Layout Visualizations in R
+
+
+
+##### Addins 
+
+
+* [calligross/ggThemeAssist](https://github.com/calligross/ggthemeassist) - `ggplot2` 主题助手插件，可通过界面调整图形的外观，并生成对应的效果和代码。这非常有利于系统性学习并掌握主题相关的设置。
+* [dreamRs/esquisse](https://github.com/dreamRs/esquisse) - RStudio add-in to make plots interactively with ggplot2
+
+
+
+### Cheetsheets
+* [RStudio/Data Visualization Cheat Sheet(ggplot2)](https://www.rstudio.com/resources/cheatsheets/)
+* [sefakilic/ggplot-cheatsheet](https://github.com/sefakilic/ggplot-cheatsheet) - 类似于一篇包含结构和代码的介绍性文章
+
+### 辅助
+
+* [zeehio/ggpipe](https://github.com/zeehio/ggpipe) - 可以用 %>% 这个管道符号了（意义不大，已经习惯 + 号操作了）
+* [ggeasy/ggeasy](https://github.com/jonocarroll/ggeasy) - 给需要主题设置相关的操作添加了快捷函数，比如 easy_rotate_x_labels() 使x轴标签选作，easy_center_title() 使标题居中等。
+
+
+
+### 调色板
+> Color Palette
+* [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html) - Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org
+* [johannesbjork/LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR) - LaCroix Color Palettes for R.
+* [karthik/wesanderson](https://github.com/karthik/wesanderson) - A Wes Anderson color palette for R.
+* [leeper/colourlovers](https://github.com/leeper/colourlovers) - Client for the COLOURlovers API.
+* [thomasp85/scico](https://github.com/thomasp85/scico) - Palettes for R based on the Scientific Colour-Maps.
+* [EmilHvitfeldt/paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package
+* [jaredhuling/jcolors](https://github.com/jaredhuling/jcolors) - A set of color palettes
+* [m-clark/NineteenEightyR](https://github.com/EmilHvitfeldt/paletteer)
+* [EdwinTh/dutchmasters](https://github.com/EdwinTh/dutchmasters)- R package with colour palettes derived from famous paintings by 17th century Dutch masers 
+* [ewenme/ghibli](https://github.com/ewenme/ghibli) - 吉卜力工作室动画作品的调色板。
+* [jkaupp/nord](https://github.com/jkaupp/nord) - ArcticIce Studios nord, and northern inspired palettes from the Group of Seven.
+* [EmilHvitfeldt/quickpalette](https://github.com/EmilHvitfeldt/quickpalette) - 从字符串中提取颜色相关的值，从网络图片中提取颜色的值。
+* [sjmgarnier/viridis](https://github.com/sjmgarnier/viridis) - Implementation of the Matplolib 'viridis' color map in R
+* [cararthompson/monochromeR](https://github.com/cararthompson/monochromeR) - An easy way to create monochrome colour palettes
+
+
+Example of websites where this function could be useful includes:
+
+-   <http://colorpalettes.net/>
+-   <http://paletton.com/>
+-   <https://learnui.design/tools/data-color-picker.html>
+-   <http://tools.medialab.sciences-po.fr/iwanthue/>
+-   <http://www.color-hex.com/color-palettes/>
+-   <http://www.colourlovers.com/palettes>
+-   <https://www.w3schools.com/colors/colors_palettes.asp>
+-   <http://colorhunt.co/>
+-   <https://coolors.co/>
+
+### 多图布局
+
+* [thomasp85/patchwork](https://github.com/thomasp85/patchwork) - 把独立的图形，按照布局重新组合成为一张大图，可自定义布局，可实现内嵌子图等。
+
+其他
+* [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html) - Provides a number of user-level functions to work with "grid" graphics, notably to arrange multiple grid-based plots on a page, and draw tables.
+* [egg](https://cran.r-project.org/web/packages/egg/) -  Extensions for 'ggplot2': Custom Geom, Custom Themes, Plot Alignment, Labelled Panels, Symmetric Scales, and Fixed Panel Size
+* [ggpubr]() - ggarrange() 用来重排图形
+
+
+### 统计图
+* coefplot
+* cowplot
+* interplot
+
+### 地图数据可视化
+* Map Visualization*
+
+* [Leaflet](http://rstudio.github.io/leaflet/) - One of the most popular JavaScript libraries interactive maps.
+* [ggmap](https://github.com/dkahle/ggmap) -  Plotting maps in R with ggplot2.
+* [REmap](https://github.com/Lchiffon/REmap) - R interface to the JavaScript library ECharts for interactive map data visualization.
+* [tmap](https://github.com/mtennekes/tmap) - thematic maps in R.
+* [rworldmap](https://github.com/AndySouth/rworldmap) - R package for mapping country data.
+
+
+### 网络关系图
+* [igraph](http://igraph.org/r/) - igraph is a collection of network analysis tools with the emphasis on efficiency, portability and ease of use. igraph is open source and free.
+* [DiagrammerR](https://github.com/rich-iannone/DiagrammeR) - Graph and network visualization using tabular data in R
+
+### 热力图
+
+* [jokergoo/ComplexHeatmap](https://github.com/jokergoo/ComplexHeatmap) - 复杂热力图
+
+### 其它可视化图
+* [ropensci/visdat](https://github.com/ropensci/visdat) - Preliminary Exploratory Visualisation of Data 数据探索可视化：数据类型，缺失值
+
+* [forestplot](https://github.com/gforge/forestplot) - Advanced forest plots in R using grid graphics. A forest plot that allows for multiple confidence intervals per row, custom fonts for each text element, custom confidence intervals, text mixed with expressions, and more.
+* [slopegraph](https://github.com/leeper/slopegraph) - Edward Tufte-Inspired Slopegraphs in R.
+* [waffle](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R.
+
+
+* [lattice](http://lattice.r-forge.r-project.org/) - A powerful and elegant high-level data visualization system.
+* [corrplot](https://github.com/taiyun/corrplot) - A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering.
+* [rgl](http://cran.r-project.org/web/packages/rgl/index.html) - 3D visualization device system for R.
+* [Cairo](http://cran.r-project.org/web/packages/Cairo/index.html) - R graphics device using cairo graphics library for creating high-quality display output.
+
+* [animation](http://yihui.name/animation/) - A simple way to produce animated graphics in R, using [ImageMagick](http://imagemagick.org/).
+
+* [misc3d](https://cran.r-project.org/web/packages/misc3d/index.html) - Powerful functions to deal with 3d plots, isosurfaces, etc.
+* [xkcd](https://cran.r-project.org/web/packages/xkcd/index.html) - Use xkcd style in graphs.
+* [imager](http://dahtah.github.io/imager/) - An image processing package based on CImg library to work with images and display them.
+
+* [TuftsVALT/ranking-correlation](https://github.com/TuftsVALT/ranking-correlation) - Data and code for the studies in "Ranking Visualizations of Correlation Using Weber's Law" 
+
+## HTML Widgets
+*Packages for interactive visualizations.*
+
+
+* [JohnCoene/echarts4r](https://github.com/JohnCoene/echarts4r) - ECharts 5 for R
+* [d3heatmap](https://github.com/rstudio/d3heatmap) - Interactive heatmaps with D3.
+* [DataTables](http://rstudio.github.io/DT/) - Displays R matrices or data frames as interactive HTML tables.
+* [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Create JS graph diagrams and flowcharts in R.
+* [dygraphs](https://github.com/rstudio/dygraphs) - Charting time-series data in R.
+* [formattable](http://renkun.me/formattable/) - Formattable Data Structures.
+* [ggvis](https://github.com/rstudio/ggvis) - Interactive grammar of graphics for R.
+* [Leaflet](http://rstudio.github.io/leaflet/) - One of the most popular JavaScript libraries interactive maps.
+* [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/) - Enables easy creation of D3 scatterplots, line charts, and histograms.
+* [networkD3](http://christophergandrud.github.io/networkD3/) - D3 JavaScript Network Graphs from R.
+* [scatterD3](https://github.com/juba/scatterD3) - Interactive scatterplots with D3.
+* [plotly](https://github.com/ropensci/plotly) - Interactive ggplot2 and Shiny plotting with [plot.ly](https://plot.ly).
+* [rCharts](https://github.com/ramnathv/rCharts) - Interactive JS Charts from R.
+* [rbokeh](http://hafen.github.io/rbokeh/) - R Interface to [Bokeh](http://bokeh.pydata.org/en/latest/).
+* [threejs](https://github.com/bwlewis/rthreejs) - Interactive 3D scatter plots and globes.
+* [timevis](https://github.com/daattali/timevis) - Create fully interactive timeline visualizations.
+* [visNetwork](https://github.com/datastorm-open/visNetwork) - Using vis.js library for network visualization.
+* [wordcloud2](https://github.com/Lchiffon/wordcloud2) - R interface to wordcloud2.js.
+
+### 可视化作品 Gallery
+
+* [marcusvolz/strava](https://github.com/marcusvolz/strava) - Create artistic visualisations with your exercise data
+
+* [zonination](https://github.com/zonination)
+
+* [halhen/viz-pub](https://github.com/halhen/viz-pub) 
+
+## Shiny
+* [tidyshiny](https://github.com/MangoTheCat/tidyshiny) - Interactively generate function calls for the tidyr package.

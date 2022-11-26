@@ -1,0 +1,127 @@
+---
+title: "R语言：利用 ggplot2 进行数据可视化"
+author: "lixionghui"
+date: "2017/12/12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The Grammar of Graphics {#grammarofgraphics}
+
+We begin with a discussion of a theoretical framework for data visualization known as the "The Grammar of Graphics," which serves as the basis for the `ggplot2` package.  Much like how we construct sentences in any language by using a linguistic grammar (nouns, verbs, subjects, objects, etc.), the theoretical framework given by Leland Wilkinson [@wilkinson2005] allows us to specify the components of a statistical graphic. 
+
+### Components of the Grammar
+
+In short, the grammar tells us that:
+
+> **A statistical graphic is a mapping of `data` variables to `aes`thetic attributes of `geom`etric objects.**
+
+Specifically, we can break a graphic into the following three essential components:
+
+1. `data`: the data-set comprised of variables that we map.
+1. `geom`: the geometric object in question. This refers to our type of objects we can observe in our plot. For example, points, lines, bars, etc.
+1. `aes`: aesthetic attributes of the geometric object that we can perceive on a graphic. For example, x/y position, color, shape, and size.  Each assigned aesthetic attribute can be mapped to a variable in our data-set.
+
+Let's break down the grammar with an example.
+
+
+
+## Data
+
+### dplyr
+
+### gapminder
+
+### nycflights13
+
+### diamonds
+
+
+## Geometrics - Five Named Graphs - The 5NG
+
+
+### Five Named Graphs - The 5NG {#FiveNG}
+
+For our purposes, we will be limiting consideration to five different types of graphs.  We term these five named graphs the **5NG**:
+
+1. scatterplots
+1. linegraphs
+1. boxplots
+1. histograms
+1. barplots
+
+We will discuss some variations of these plots, but with this basic repertoire in your toolbox you can visualize a wide array of different data variable types. Note that certain plots are only appropriate for categorical/logical variables and others only for quantitative variables. You'll want to quiz yourself often as we go along on which plot makes sense a given a particular problem or data-set.
+
+
+#### 5NG#1: Scatterplots {#scatterplots}
+
+#### 5NG#2: Linegraphs {#linegraphs}
+
+#### 5NG#3: Histograms {#histograms}
+
+#### 5NG#4: Boxplots {#boxplots}
+
+#### 5NG#5: Barplots {#geombar}
+
+
+## Mapping - Aesthetics
+
+### Position related aesthetics
+
+### Colour related aesthetics
+
+### Groupping aesthetics
+
+### Differentiation related aesthetics
+
+
+## Coordinate systems
+
+### Cartesian coordinates
+
+### Flip cartesian coordinates
+
+### Polar coordinates
+
+## position adjustment
+
+### jitter
+
+### dodge, stack, fill
+
+## Facetting
+
+### facet_grid
+
+### facet_wrap
+
+###Facetting: labels
+
+## Annotations
+
+### Reference lines: horizontal, vertical, and diagonal
+
+### annotate
+
+### rect
+
+### annotate_text vs geom_text, geom_lables
+
+
+## Stats
+
+### geom_smooth / stat_smooth
+
+### geom_histogram / stat_bin
+
+### geom_col / stat_count
+
+## Scales
+
+## Guides: axes and legends
+
+## Themes
+

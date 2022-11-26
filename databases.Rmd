@@ -1,0 +1,26 @@
+---
+title: "database"
+author: "lixionghui"
+date: "2018/2/1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Hadoop
+
+### Hive
+
+
+### Impala
+
+* [ianmcook/implyr](https://github.com/ianmcook/implyr) - SQL backend to dplyr for Impala
+
+### Spark
+* [rstudio/sparklyr](https://spark.rstudio.com) - R interface for Apache Spark 
+
+
+## Vertica.dplyr
+* [vertica/vertica.dplyr](https://github.com/vertica/vertica.dplyr)

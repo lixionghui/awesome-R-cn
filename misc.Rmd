@@ -1,0 +1,22 @@
+---
+title: "其他"
+author: "lixionghui"
+date: "2018/1/25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## 信用卡评分
+
+* [手把手教你用R语言建立信用评分模型（一）](http://www.vccoo.com/v/5e2ha4)
+
+* [高速上手现代 C++ 11/14/17(changkun/modern-cpp-tutorial)](https://github.com/changkun/modern-cpp-tutorial)
+
+## 文件操作
+
+* [数据科学与R语言，第二章，文件管理员，黄湘云](https://bookdown.org/xiangyun/r4ds/files.html#manipulation)

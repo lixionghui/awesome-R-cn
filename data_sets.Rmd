@@ -1,0 +1,133 @@
+---
+title: "data-sets"
+author: "lixionghui"
+date: "2017/12/8"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 数据集 Handy Data Packages
+
+* [CRAN Task View: Open Data](https://github.com/ropensci/opendata) - This Task View contains information about using R to obtain, parse, manipulate, create, and share open data..
+
+## 中国、中文相关的数据集
+
+* [Tushare](http://tushare.org/) - Tushare是一个免费、开源的 python 中国国内财经相关数据 Python 接口包。
+
+* [PD&CFT: A Chinese Reading Comprehension Dataset](https://github.com/ymcui/Chinese-RC-Dataset) - 人民日报和中国童话文本数据集，用于语义理解的研究
+
+* [longwosion/geojson-map-china](https://github.com/longwosion/geojson-map-china)
+
+* [wongyouth/chinacity](https://github.com/wongyouth/chinacity) - Ruby 中国省市地区行政区划数据
+* [mumuy/data_location](https://github.com/mumuy/data_location) - JavaScript 中华人民共和国行政区划数据【省、市、区县、乡镇街道】中国省市区镇三级四级联动地址数据（GB/T 2260）
+* [instapp/china-regions](https://github.com/instapp/china-regions) - JavaScript 中国省市地区行政区划数据
+
+* [zxinc](http://www.zxinc.org/gb2260.htm) - 
+最新县及县以上1980年以来历史行政区划代码大全（截止2018年3月31日）
+
+### 官方数据
+
+* [中国国家统计局](http://www.stats.gov.cn/)
+
+
+
+### data set pacakges
+
+* [gapminder](http://github.com/jennybc/gapminder) - Excerpt from the Gapminder dataset (data about countries throught the paste 50 years).
+* [EDAWR](https://github.com/rstudio/EDAWR) - Data sets to support the Expert Data Analysis with R workshop. `devtools::install_github("rstudio/EDAWR")`
+* [AER](https://cran.r-project.org/web/packages/AER/index.html) - Functions, data sets, examples, demos, and vignettes for the book Christian Kleiber and Achim Zeileis (2008), Applied Econometrics with R, Springer-Verlag, New York.
+* [nycflights13](https://github.com/hadley/nycflights13) - An R data package containing all out-bound flights from NYC in 2013 + useful metdata.
+* [toddwschneider/nyc-taxi-data](https://github.com/toddwschneider/nyc-taxi-data) - Import public NYC taxi and Uber trip data into PostgreSQL / PostGIS database, analyze with R
+* [flights2](https://github.com/rstudio/flights2) - An expanded version fo the flights data set in the nycflights13 package.
+* [babynames](https://github.com/hadley/babynames) - An R package contain all baby names data from the SSA.
+* [titanic](https://github.com/paulhendricks/titanic) - An R data package containing Kaggle Titanic datasets 
+* [data-baby-names](https://github.com/hadley/data-baby-names) - Distribution of US baby names, 1880-2008.
+* [lvplot](https://github.com/hadley/lvplot) - Letter value boxplots for R.
+* [fueleconomy](https://github.com/hadley/fueleconomy) - EPA fuel economy data in an R package.
+* [nasaweather](https://github.com/hadley/nasaweather) - Data from the 2006 ASA data expo.
+* [neiss](https://github.com/hadley/neiss) - Data from National Electronic Injury Surveillance System.
+* [yrbss](https://github.com/hadley/yrbss) - Youth Risk Behaviour Surveillance System Data.
+* [ggplot2movies](https://github.com/hadley/ggplot2movies) - Movie information and user ratings from IMDB.com.
+* [data-gbd](https://github.com/hadley/data-gbd) - Exploration of global burden of disease data for USA.
+* [data-stride](https://github.com/hadley/data-stride) - Cleaned up cocaine seizure data from STRIDE.
+* [fec-dplyr](https://github.com/hadley/fec-dplyr) - Exploration of FEC contributions data with dplyr
+* [sfhousing](https://github.com/hadley/sfhousing) - Code to download and process SF housing sales data
+* [pop-flows](https://github.com/hadley/pop-flows) - Population flows around the USA in 2008.
+* [engsoccerdata](https://github.com/jalapic/engsoccerdata) - English and European soccer results 1871-2016.
+* [eurostat](https://github.com/rOpenGov/eurostat) - R tools to access open data from Eurostat. Data search, download, manipulation and visualization.
+* [stationaRy](https://github.com/rich-iannone/stationaRy) - Get hourly meteorological data from one of thousands of global stations.
+
+
+* [USAboundaries](https://github.com/ropensci/USAboundaries) - Historical and Contemporary Boundaries of the United States of America.
+
+
+* [ajdamico/asdfree](https://github.com/ajdamico/asdfree) - analyze survey data for free with the r language and monetdblite.
+
+* [leeper/crandatapkgs](https://github.com/leeper/crandatapkgs) - Find Data-Only Packages on CRAN
+
+
+### dataset in packages
+
+* `data("G20", package = "treemapify")` [wilkox/treemapify](https://github.com/wilkox/treemapify) - ggplot2 geoms for drawing treemaps
+* `data("diamonds", package = "ggplot2")` [tidyverse/ggplot2](https://github.com/tidyverse/ggplot2) - An implementation of the Grammar of Graphics in R
+* `data("GermanCredit", package = "caret")` [topepo/caret](https://github.com/topepo/caret) - caret (Classification And Regression Training) R package that contains misc functions for training and plotting classification and regression models
+* `data("College ", package = "ISLR")` - U.S. News and World Report's College Data
+* `data("MovieLense ", package = "recommenderlab")`  - MovieLense Dataset (100k)
+
+
+### CRAN
+
+* [crandb](https://github.com/metacran/crandb) - Database of CRAN R packages
+* [cranlogs](https://github.com/metacran/cranlogs) - Download Logs from the RStudio CRAN Mirror
+* [cran-logs-dplyr](https://github.com/hadley/cran-logs-dplyr) - An case study using dplyr on a large dataset: all package downloads from the Rstudio cran mirror.
+
+### wiki pageview
+
+### Kaggle
+
+
+
+
+### open data from github
+* [**fivethirtyeight/data**](https://github.com/fivethirtyeight/data) - Data and code behind the stories and interactives at FiveThirtyEight
+
+* `BloodPressure.csv`, `height.csv` [garrettgman/Visual-Inference-Tools](https://github.com/garrettgman/Visual-Inference-Tools/tree/master/data)
+
+* [genomicsclass/dagdata](https://github.com/genomicsclass/dagdata) - Data for the HarvardX courses: PH525x
+
+### datasets source
+
+* [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
+* [IDA Benchmark Repository used in [RaeOnoMue01] and [MikRaeWesSchMue99]](http://www.raetschlab.org/Members/raetsch/benchmark)
+
+* [caesar0301/awesome-public-datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+* [GoogleTrends/data](https://github.com/GoogleTrends/data) - An index of all open-source data
+
+
+### 机器学习数据集
+
+* [Microsoft/SQL-Server-R-Services-Samples](https://github.com/Microsoft/SQL-Server-R-Services-Samples) - Advanced analytics samples and templates using SQL Server R Services
+* [Vertica/Machine-Learning-Examples](https://github.com/vertica/Machine-Learning-Examples) - Vertica Machine Learning examples and example data.
+* [hthoughtfulml/examples](https://github.com/thoughtfulml/examples) - examples from "Thoughtful Machine Learning".
+* [masinoa/machine_learning](https://github.com/masinoa/machine_learning)
+* [agconti/kaggle-titanic](https://github.com/agconti/kaggle-titanic) - A tutorial for Kaggle's Titanic: Machine Learning from Disaster competition.
+* [chiphuyen/tf-stanford-tutorials](https://github.com/chiphuyen/tf-stanford-tutorials) - This repository contains code examples for the course CS 20SI: TensorFlow for Deep Learning Research.
+* [lazyprogrammer/machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) - A collection of machine learning examples and tutorials.
+* [csuldw/MachineLearning](https://github.com/csuldw/MachineLearning) - Machine learning resources，including algorithm, paper, dataset, example and so on.
+* [jermwatt/mlrefined](https://github.com/jermwatt/mlrefined) - Python and MATLAB code examples and demos from the textbook "Machine Learning Refined" (Cambridge University Press).
+* [memoiry LightML.jl](https://github.com/memoiry/LightML.jl) - Minimal and clean examples of machine learning algorithms implemented in Julia.
+* [HanXiaoyang/ML-examples](https://github.com/HanXiaoyang/ML-examples) - 一个线性回归数据集，两个逻辑回归数据集。
+* [chribsen/simple-machine-learning-examples](https://github.com/chribsen/simple-machine-learning-examples) - adult 数据集，cars 数据集。
+* [tobigithub/caret-machine-learning](https://github.com/tobigithub/caret-machine-learning) - acaret-datasets 包含31个数据集，列出 R 包来源，类型。
+* [bt3gl/Advanced-Machine-Learning](https://github.com/bt3gl/Advanced-Machine-Learning) - Machine Learning classifiers and examples from the graduate class at Stony Brook with Prof. Leman Akoglu. Adaboost, EM, HMM, KNN, Naive Bayes vs. Logistic Regression.
+* [zinniasystems/spark-ml-class/src/main/resources/](https://github.com/zinniasystems/spark-ml-class/tree/master/src/main/resources) - Coursera Machine Learning class examples in Spark.
+* [hackoregon/hack-university-machine-learning/data/](https://github.com/hackoregon/hack-university-machine-learning/tree/master/data) - German_credit_card, crime_incident_data.
+* [rjurney/coursera_machine_learning](https://github.com/rjurney/coursera_machine_learning) - examples for Andrew Ng's Stanford Machine Learning class on Coursera. logisitc & regression.
+* [kaushikb258/Machine-Learning-With-R](https://github.com/kaushikb258/Machine-Learning-With-R) - eData sets and R code for the examples from the book "Machine Learning with R" by Brett Lantz.
+* [drewconway/ML-Email-Code](https://github.com/drewconway/ML-Email-Code/tree/master/03-SPAM_Classification/code/data) - This repository contains all code examples in Machine Learning for Email, by Drew Conway and John Myles White.
+* [ben519/MLPB](https://github.com/ben519/MLPB) - Machine Learning Problem Bible (MLPB).
+* [faridcher/machine-learning-course](https://github.com/faridcher/machine-learning-course) - The R code for the assignments of Coursera machine learning course.

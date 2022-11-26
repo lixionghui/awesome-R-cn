@@ -1,0 +1,27 @@
+---
+title: "GermanCredit"
+author: "lixionghui"
+date: "2017/12/5"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+require(caret)
+
+data(GermanCredit)
+```
+
+
+
+我们将会使用在信用评级建模中非常常用的德国信贷数据（German credit dataset）作为建模的数据集，具体的数据下载源请见文末的引用。
+
+德国信贷数据共有1000条数据，每条数据20个特征。这些特征包括AccountBalance（Checking账户余额）、Duration (Duration of Credit in month 借款期限）、Paymentstatus（还款记录）等。 其中比较难以理解的指标是Instalmentpercent，其代表着 Installment rate in percentage of disposable income （分期付款占可支配收入的百分比）。
+
+
+
+
+而数据集中需要预测的指标是（response variable）其中的Creditability变量， 其中 1代表好客户（会还本付息），0则是代表坏客户。

@@ -1,0 +1,80 @@
+---
+title: "Dynamic Documents"
+author: "lixionghui"
+date: "2017/12/8"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Dynamic Documents
+
+* [Bookdown](https://bookdown.org/) - The platform bookdown.org is provided by RStudio for authors to publish books online for free.
+
+### Bookdown
+
+* [Getting used to R, RStudio, and R Markdown, Chester Ismay, 2016](https://bookdown.org/chesterismay/rbasics/)
+* [R Markdown Cookbook, Yihui Xie, Christophe Dervieux, Emily Riederer, 2020](https://bookdown.org/yihui/rmarkdown-cookbook/)
+* [R Markdown: The Definitive Guide, Yihui Xie, J. J. Allaire, Garrett Grolemund, 2020](https://bookdown.org/yihui/rmarkdown/)
+* [bookdown: Authoring Books and Technical Documents with R Markdown, Yihui Xie, 2020](https://bookdown.org/yihui/bookdown/)
+* [bookdown: Authoring Books and Technical Documents with R Markdown, Yihui Xie, Amber Thomas, Alison Presmanes Hill 2020](https://bookdown.org/yihui/blogdown/)
+
+### 中文参考书
+* [现代统计图形,谢益辉,黄湘云,赵鹏, 2020](https://bookdown.org/xiangyun/msg/)
+* [R语言忍者秘笈, 谢益辉, 肖楠, 2018](https://bookdown.org/yihui/r-ninja/)
+* [醫學統計學, 王超辰, 2020](https://wangcc.me/LSHTMlearningnote/) - 统计学学习笔记
+* [Surge 官方中文指引：理解 Surge 原理, Surge Networks Inc., 2020](https://manual.nssurge.com/book/understanding-surge/cn/)
+* [数据银行和策略中心面板取数的 “说明手册”, Acx Dep. EC, 2020](https://bookdown.org/hellosunny2016/bookdown/)
+* [数据分析残卷, 于淼, 2020](https://bookdown.org/yufree/datadown/)
+* [数据科学工作流,黄湘云, 2019](https://bookdown.org/xiangyun/tidyverse-book/)
+* [自然生活的数学原理,于淼, 2020](https://bookdown.org/yufree/lifeguide/)
+* [现代科研指北,于淼, 2020](https://bookdown.org/yufree/sciguide/)
+* [请 Inventor 用 FreeCAD,Brad Collette 著，曲政 译,2020](https://bookdown.org/johnqu1982/FFI/)
+* [Some Notes on Mathematics, Yifei Xiong, 2020](https://bookdown.org/yifei/book/)
+* [R语言基础及光谱建模应用, 李彦杰, 2020](https://bookdown.org/aj7105/statcompc/)
+* [数据科学与 R 语言, 黄湘云, 2020](https://bookdown.org/xiangyun/r4ds/)
+* [数据科学中的 R 语言, 王敏杰, 2020](https://bookdown.org/wangminjie/R4DS/) - 四川师范大学研究生公选课《数据科学中的R语言》的课程内容
+* [基于R语言的科研信息分析与服务, 王敏杰, 2020](https://bookdown.org/wangminjie/R4IS/)
+* [CFPS 之R语言学习笔记, 王敏杰, 2019 ](https://bookdown.org/wangminjie/R4cfps/)
+* [資料科學與R語言,曾意儒 Yi-Ju Tseng, 2020](https://yijutseng.github.io/DataScienceRBook/index.html)
+* [现代应用统计与 R 语言, 黄湘云, 2020](https://bookdown.org/xiangyun/masr/)
+* [空间广义线性混合效应模型及其应用, 黄湘云, 2019](https://bookdown.org/xiangyun/Thesis-Template-Bookdown/)
+* [国内任天堂 Switch 使用情况与玩家需求调查报告,OldNin, 2019](https://bookdown.org/CoLin00/_switch_/)
+* [R 数据分析指南与速查手册, 郭晓, 2019](https://bookdown.org/xiao/RAnalysisBook/)
+* [Steem Handbook, Steem 中文社区集体创作, 2019](https://bookdown.org/steem_guides/steemh/aacontributors.html)
+* [文科生数据科学上手指南, 王树义, 2018](https://bookdown.org/wshuyi/dive-into-data-science-practically/) - Python
+* [零基础学R语言: R 语言入门，给一心只有学习的你, Chris Qi from Data Maniac, 2018](Chris Qi from Data Maniac)
+* [認識 R 的美好, 郭耀仁](https://bookdown.org/tonykuoyj/eloquentr/)
+* [Miao YU's note, Miao YU, 2017](https://bookdown.org/yufree/Notes/)
+
+
+* [Papa’s Three Laws 大鹏三定律，大鹏&朋友, 2017](https://bookdown.org/baydap/papasdiary/) - 散文集，育儿故事
+
+
+* [数学公式 MathJax 基础语法](http://blog.csdn.net/mage_ee/article/details/75309174)
+* [希腊字母表-百度百科](https://baike.baidu.com/item/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D/4428067)
+
+# 动态报告与可重复性研究
+> Dynamic Report & Reproducible Research
+
+* [knitr](http://yihui.name/knitr/) - Easy dynamic report generation in R.
+* [xtable](http://cran.r-project.org/web/packages/xtable/index.html) - Export tables to LaTeX or HTML.
+* [rapport](http://rapport-package.info/#intro) - An R templating system.
+* [rmarkdown](http://rmarkdown.rstudio.com/) - Dynamic documents for R.
+* [slidify](https://github.com/ramnathv/slidify) - Generate reproducible html5 slides from R markdown.
+* [Sweave](https://www.statistik.lmu.de/~leisch/Sweave/) - A package designed to write LaTeX reports using R.
+* [texreg](http://www.philipleifeld.de/software/texreg/texreg.html) - Formatting statistical models in LaTex and HTML.
+* [checkpoint](https://github.com/RevolutionAnalytics/checkpoint) - Install packages from snapshots on the checkpoint server.
+* [brew](https://cran.r-project.org/web/packages/brew/index.html) - Pre-compute data to enhance your report templates. Can be combined with knitr. 
+* [ReporteRs](http://davidgohel.github.io/ReporteRs/index.html) - An R package to generate Microsoft Word, Microsoft PowerPoint and HTML reports.
+* [bookdown](https://bookdown.org/) - Authoring Books with R Markdown.
+* [ezknitr](https://github.com/daattali/ezknitr) - Avoid the typical working directory pain when using 'knitr'
+* [pander](https://github.com/Rapporter/pander) - An R Pandoc Writer. The main aim of the pander R package is to provide a minimal and easy tool for rendering R objects into Pandoc's markdown. The package is also capable of exporting/converting complex Pandoc documents (reports) in various ways. Regarding the difference between pander and other packages for exporting R objects to different file formats, please refer to this section.
+* [kableExtra](https://github.com/haozhu233/kableExtra) - Construct Complex Table with knitr::kable() + pipe.
+* [hrbrmstr/markdowntemplates](https://github.com/hrbrmstr/markdowntemplates) - A collection of alternate R markdown templates.
+* [ramnathv/slidify](https://github.com/ramnathv/slidify) - Generate reproducible html5 slides from R markdown.
+
+
+* [pzhaonet/bookdownplus](https://github.com/pzhaonet/bookdownplus) - The easiest way to use R package bookdown for writing varied types of books and documents （有很多模板，包括杂志论文和毕业论文-中文）

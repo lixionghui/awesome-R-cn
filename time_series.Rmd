@@ -1,0 +1,37 @@
+---
+title: "时间序列 Time Series"
+author: "lixionghui"
+date: "2018/1/30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lubridate)
+```
+
+## book
+
+* [Forecasting: Principles and Practice, Rob J Hyndman and George Athanasopoulo](https://otexts.com/fpp3/)
+* [预测： 方法与实践, Rob J Hyndman 和 George Athanasopoulos](https://otexts.com/fppcn/)
+
+## packages
+
+### 日期和时间处理
+* [lubridate](https://lubridate.tidyverse.org/) - Make Dealing with Dates a Little Easier
+* [clock](https://clock.r-lib.org/) - Comprehensive Date-Time Handling for R
+
+### 时间序列处理
+
+* [zoo](https://cloud.r-project.org/web/packages/zoo/index.html) - zoo是一个R语言类库，zoo类库中定义了一个名为zoo的S3类型对象，用于描述规则的和不规则的有序的时间序列数据。zoo对象是一个独立的对象，包括索引、日期、时间，只依赖于基础的R环境
+* [tsibble](https://tsibble.tidyverts.org/) - The tsibble package provides a data infrastructure for tidy temporal data with wrangling tools.
+
+## 知乎
+
+### 话题与问题
+
+* [时间序列模型有什么实际用处？](https://www.zhihu.com/question/45118664)
+
+### 专栏文章
+* [时间序列简介（一）](https://zhuanlan.zhihu.com/p/32584136)
+

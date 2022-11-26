@@ -1,0 +1,29 @@
+---
+title: "diamonds"
+author: "lixionghui"
+date: "2017/12/5"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|  a|  b|  c|
+|--:|--:|--:|
+|  1|  2|  3|
+|  2|  3|  4|
+
+* carat：砖石的克拉数
+
+* cut：砖石的切工等级
+
+* color：砖石的颜色等级
+
+* clarity:砖石的透明度
+
+* depth:砖石的纵深
+
+* table:砖石的横截面
+
+* x,y,z:砖石在三维坐标系中的长度

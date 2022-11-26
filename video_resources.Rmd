@@ -1,0 +1,64 @@
+---
+title: "视频资源"
+author: "lixionghui"
+date: "2018/5/27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## 英语资源
+
+* Dpyr
+
+
+* Managing many models, Hadley Wickham, November 2016. [优酷](http://v.youku.com/v_show/id_XMjY1MjUxNTA4OA==.html?)
+
+* Data Science with R, Hadley Wickham, October 2016. [优酷](http://v.youku.com/v_show/id_XMjYzMzMwNjQ2MA==.html)
+
+* Functional programming, Cupcakes (for-loops vs maplapply), Hadley Wickham. [优酷](http://v.youku.com/v_show/id_XMjY2NTU5ODgwNA==.html)
+
+* Expressing yourself with R, Hadley Wickham, February 2014, Human-Computer Interaction Seminar, Stanford University.
+
+* Expressing yourself with R, Hadley Wickham, March 2017, Ihaka Lectures Series 2017, Auckland University. [哔哩哔哩(bilibili)](https://www.bilibili.com/video/av21678175/)
+
+
+
+## other dplyr to
+
+dplyr package - R Programming Tips, 6 Chapters. [哔哩哔哩(bilibili)](https://www.bilibili.com/video/av14109625/)
+
+Introduction to dpylr for Faster Data Maniputation in R, Data School, August 2014. [哔哩哔哩(bilibili)](https://www.bilibili.com/video/av20150388/?p=2)
+
+## R tutorial 
+
+R tutorial, Datacamp [哔哩哔哩(bilibili)](https://www.bilibili.com/video/av20149469/)
+
+## 中文资源
+
+* 《R语言基础，516数据工作室，2016年》[爱奇艺](http://www.iqiyi.com/playlist407771702.html)
+
+* 《R语言作图，516数据工作室，2016年》[爱奇艺](http://www.iqiyi.com/playlist407809702.html) - 备注：只是基础作图，未包含 ggplot2 作图
+
+* 《R语言机器学习，516数据工作室，2016年》[爱奇艺](http://www.iqiyi.com/playlist417829502.html)
+
+* 《R语言：dplyr数据处理，516数据工作室，2016年》[爱奇艺](http://www.iqiyi.com/playlist417829302.html)
+
+* 《R语言入门教程6讲, 吴明昊, 2015年4月》 Introduction to R Programming, Minghao Wu, April 2015. [哔哩哔哩(bilibili)](https://www.bilibili.com/video/av19703711/)
+
+* 《R语言绘图：ggplot2初级教程9讲, 吴明昊, 2015年4月》[哔哩哔哩(bilibili)](https://www.bilibili.com/video/av19706302)
+
+
+* 《阿雷边学边教R语言16期，阿雷，2016年9月》[哔哩哔哩(bilibili)](https://space.bilibili.com/41145264/#/channel/detail?cid=1006)
+
+* 《麦子R语言系列课程8讲，麦子，2018年3月》[哔哩哔哩(bilibili)](https://space.bilibili.com/254040065/#/channel/detail?cid=32631) -- 重点在统计分析方法
+
+
+* 《可视化基础—R语言数据预处理9讲，杜雨，2018》》[哔哩哔哩(bilibili)](https://www.bilibili.com/video/av22553509/)
+
+
+### 

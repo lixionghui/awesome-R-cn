@@ -1,0 +1,19 @@
+---
+title: "r_programming"
+author: "lixionghui"
+date: "2020/9/29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Programming
+
+
+## Bookdown
+
+* [Efficient R programming, Colin Gillespie, Robin Lovelace, 2020](https://csgillespie.github.io/efficientR/)
+* [R Programming for Data Science, Roger D. Peng, 2020](https://bookdown.org/rdpeng/rprogdatascience/)
+
